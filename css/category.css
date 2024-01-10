@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.medum-1{
+    margin-top: 40px;
+    display: flex;
+    font-size: 20px;
+}
+
+.section-molako{
+    width: 100%;
+    height: 1276px;
+    background:  #FBF8EC;
+}
+
+.glav-1{
+    text-decoration: none;
+    color: black;
+}
+
+.katal-1{
+    text-decoration: none;
+    color: black;
+}
+
+.molok{
+    text-decoration: none;
+    color: #8F8F8F;
+}
+
+.title-text-moloko{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.box-moloko{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-molako{
+    width: 272px;
+    height: 400px;
+    background: #fff;
+    border-radius: 4px;
+    
+    /* Default/XS */
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card-molako:hover{
+    border-radius: 4px;
+    background:  #FFF;
+    
+    /* Primary / M */
+    box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.20);
+}
+
+.moloko-btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #70C05B;
+    background: transparent;
+    color: #70C05B;
+}
+
+.moloko-btn:hover{
+    background: #70C05B;
+    color: #fff;
+}
+
+.card-carousel-molako{
+    width: 272px;
+    height: 400px;
+    background: #fff;
+    border-radius: 4px;
+}
